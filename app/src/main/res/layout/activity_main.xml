@@ -16,7 +16,6 @@
             android:layout_margin="3dp"
             android:layout_span="4"
             android:background="@color/teal_200"
-            android:inputType="number"
             android:padding="10dp"
             android:textSize="20dp"
             tools:text="1 2 3 4 5 6 input" />
@@ -35,11 +34,9 @@
             android:textSize="20dp"
             tools:text="1 2 3 4 5 6 output" />
 
-
     </TableRow>
 
     <TableRow>
-
         <GridLayout android:columnCount="4">
 
             <Button
@@ -106,16 +103,13 @@
                 android:id="@+id/button_divide"
                 android:text="/" />
         </GridLayout>
-
     </TableRow>
 
     <TableRow>
-
         <Button
             android:id="@+id/button_equals"
             android:text="="
             />
-
     </TableRow>
 
 </TableLayout>
