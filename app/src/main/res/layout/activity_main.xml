@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:columnCount="4"
+    android:background="@drawable/hardwood_1"
     android:padding="10dp"
     tools:context=".MainActivity">
 
